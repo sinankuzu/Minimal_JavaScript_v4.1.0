@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Button, Container, Typography } from '@mui/material';
 // components
 import Logo from '../components/logo/Logo';
+import MyMenu from '../components/ben/MyMenu';
 import { useSettingsContext } from '../components/settings';
 
 // ----------------------------------------------------------------------
@@ -34,8 +35,7 @@ export default function PageOne() {
         <Logo disabledLink="true" customWidth="100px" />
         <Button sx={{width:"200px"}} variant="contained">Contained</Button>
         <Logo/>
-
-
+        <MyMenu/>
 
         <Typography>
           Praesent ac sem eget est egestas volutpat. Phasellus viverra nulla ut metus varius

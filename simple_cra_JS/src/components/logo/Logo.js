@@ -7,7 +7,7 @@ import { Box, Link } from '@mui/material';
 
 // ----------------------------------------------------------------------
 
-const Logo = forwardRef(({ disabledLink = false, sx, customWidth = 40, ...other }, ref) => {
+const Logo = forwardRef(({ disabledLink = false, customWidth = 40, ...other }, ref) => {
   const theme = useTheme();
 
   const PRIMARY_LIGHT = theme.palette.primary.light;
@@ -34,7 +34,7 @@ const Logo = forwardRef(({ disabledLink = false, sx, customWidth = 40, ...other 
         width: customWidth,
         height: 40,
         display: 'inline-flex',
-        ...sx,
+       
       }}
       {...other}
     >
