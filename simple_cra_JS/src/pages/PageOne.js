@@ -1,9 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
-import { Button, Container, Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 // components
-import Logo from '../components/logo/Logo';
-import MyMenu from '../components/ben/MyMenu';
 import { useSettingsContext } from '../components/settings';
 
 // ----------------------------------------------------------------------
@@ -31,11 +29,6 @@ export default function PageOne() {
           sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
           Vestibulum suscipit nulla quis orci. Nam commodo suscipit quam. Sed a libero.
         </Typography>
-
-        <Logo disabledLink="true" customWidth="100px" />
-        <Button sx={{width:"200px"}} variant="contained">Contained</Button>
-        <Logo/>
-        <MyMenu/>
 
         <Typography>
           Praesent ac sem eget est egestas volutpat. Phasellus viverra nulla ut metus varius
