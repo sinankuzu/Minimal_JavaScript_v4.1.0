@@ -1,7 +1,9 @@
 // ----------------------------------------------------------------------
 
 function path(root, sublink) {
+  console.log(`${root}${sublink}`);
   return `${root}${sublink}`;
+  
 }
 
 const ROOTS_DASHBOARD = '/dashboard';

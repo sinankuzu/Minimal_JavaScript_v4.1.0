@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Container, Typography } from '@mui/material';
 // components
 import { useSettingsContext } from '../components/settings';
-
+import MyMenu from '../components/ben/MyMenu';
 // ----------------------------------------------------------------------
 
 export default function PageOne() {
@@ -29,7 +29,7 @@ export default function PageOne() {
           sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
           Vestibulum suscipit nulla quis orci. Nam commodo suscipit quam. Sed a libero.
         </Typography>
-
+        <MyMenu/>
         <Typography>
           Praesent ac sem eget est egestas volutpat. Phasellus viverra nulla ut metus varius
           laoreet. Curabitur ullamcorper ultricies nisi. Ut non enim eleifend felis pretium feugiat.

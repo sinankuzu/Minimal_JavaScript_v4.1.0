@@ -35,6 +35,7 @@ export default function NavSectionVertical({ data, sx, ...other }) {
                 depth={1}
                 hasChild={!!list.children}
               />
+              
             ))}
           </List>
         );

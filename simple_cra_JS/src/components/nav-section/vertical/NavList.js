@@ -18,7 +18,7 @@ NavList.propTypes = {
 
 export default function NavList({ data, depth, hasChild }) {
   const { pathname } = useLocation();
-
+console.log(pathname)
   const { active, isExternalLink } = useActiveLink(data.path);
 
   const [open, setOpen] = useState(active);
