@@ -2,8 +2,10 @@ import { Helmet } from 'react-helmet-async';
 // @mui
 import { Container, Typography } from '@mui/material';
 // components
+
 import { useSettingsContext } from '../components/settings';
 import MyMenu from '../components/ben/MyMenu';
+import Logo from '../components/logo/Logo';
 // ----------------------------------------------------------------------
 
 export default function PageOne() {
@@ -19,7 +21,7 @@ export default function PageOne() {
         <Typography variant="h3" component="h1" paragraph>
           Page One
         </Typography>
-
+      <Logo disabledLink />
         <Typography gutterBottom>
           Curabitur turpis. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc,
           vitae euismod ligula urna in dolor. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit
